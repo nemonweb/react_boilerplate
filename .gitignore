@@ -1,2 +1,11 @@
+# Dependency directory
 node_modules
-dist
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
