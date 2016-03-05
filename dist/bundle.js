@@ -60,9 +60,9 @@
 
 	var _postList2 = _interopRequireDefault(_postList);
 
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	__webpack_require__(165);
 
-	__webpack_require__(161);
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	_reactDom2.default.render(_react2.default.createElement(_postList2.default, null), document.getElementById('content'));
 
@@ -19728,7 +19728,7 @@
 
 	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/Users/nemon/work/react_webpack_own/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/Users/nemon/work/react_webpack_own/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
 
-	"use strict";
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -19739,6 +19739,10 @@
 	var _react = __webpack_require__(1);
 
 	var _react2 = _interopRequireDefault(_react);
+
+	var _post = __webpack_require__(161);
+
+	var _post2 = _interopRequireDefault(_post);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -19758,19 +19762,19 @@
 	  }
 
 	  _createClass(Post, [{
-	    key: "render",
+	    key: 'render',
 	    value: function render() {
 	      return _react2.default.createElement(
-	        "div",
-	        { className: "post" },
+	        'div',
+	        { className: 'post' },
 	        _react2.default.createElement(
-	          "div",
-	          { className: "post__title" },
+	          'div',
+	          { className: _post2.default.title },
 	          this.props.title
 	        ),
 	        _react2.default.createElement(
-	          "div",
-	          { className: "post__desc" },
+	          'div',
+	          { className: 'post__desc' },
 	          this.props.desc
 	        )
 	      );
@@ -19790,6 +19794,16 @@
 
 /***/ },
 /* 161 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+	module.exports = {"title":"post__title___17lWI"};
+
+/***/ },
+/* 162 */,
+/* 163 */,
+/* 164 */,
+/* 165 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin

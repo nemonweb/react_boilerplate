@@ -37,10 +37,16 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        loader: ExtractTextPlugin.extract('style-loader', 'css-loader'),
+        loader: ExtractTextPlugin.extract(
+          'style',
+          'css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!postcss'
+        ),
       },
     ],
   },
+  postcss: [
+    require('autoprefixer'),
+  ],
   plugins: [
     new ExtractTextPlugin('[name].css'),
     new HtmlWebpackPlugin({

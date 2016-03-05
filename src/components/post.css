@@ -1,0 +1,11 @@
+.post {
+  border: 1px solid black;
+}
+
+.title {
+  background-color: red;
+}
+
+.desc {
+  background-color: yellow;
+}

@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
+import styles from './post.css';
 
-export default class Post extends React.Component {
+export default class Post extends Component {
   static propTypes = {
     title: React.PropTypes.string.isRequired,
     desc: React.PropTypes.string.isRequired,
@@ -8,9 +9,9 @@ export default class Post extends React.Component {
 
   render() {
     return (
-      <div className="post">
-        <div className="post__title">{this.props.title}</div>
-        <div className="post__desc">{this.props.desc}</div>
+      <div className={styles.post}>
+        <div className={styles.title}>{this.props.title}</div>
+        <div className={styles.desc}>{this.props.desc}</div>
       </div>
     );
   }
