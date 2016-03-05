@@ -10,7 +10,7 @@ export default class Post extends Component {
   render() {
     return (
       <div className={styles.post}>
-        <div className={styles.title}>{this.props.title}</div>
+        <div className={styles.postTitle}>{this.props.title}</div>
         <div className={styles.desc}>{this.props.desc}</div>
       </div>
     );

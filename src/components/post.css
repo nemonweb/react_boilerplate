@@ -1,8 +1,18 @@
-.post {
-  border: 1px solid black;
+:root {
+  --mainColor: black;
 }
 
-.title {
+.post {
+  border: 1px solid var(--mainColor);
+  display: flex;
+}
+
+.common {
+  color: white;
+}
+
+.postTitle {
+  composes: heading from "./shared/styles/typography.css";
   background-color: red;
 }
 

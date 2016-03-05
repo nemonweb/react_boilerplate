@@ -10,6 +10,9 @@ const PATHS = {
   html: path.join(__dirname, 'src/index.html'),
 };
 
+const cssnext = require('postcss-cssnext');
+const postcssSorting = require('postcss-sorting');
+
 module.exports = {
   context: PATHS.src,
 /*
@@ -45,7 +48,8 @@ module.exports = {
     ],
   },
   postcss: [
-    require('autoprefixer'),
+    cssnext,
+    postcssSorting,
   ],
   plugins: [
     new ExtractTextPlugin('[name].css'),

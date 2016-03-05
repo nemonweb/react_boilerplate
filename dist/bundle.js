@@ -19752,8 +19752,8 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var Post = function (_React$Component) {
-	  _inherits(Post, _React$Component);
+	var Post = function (_Component) {
+	  _inherits(Post, _Component);
 
 	  function Post() {
 	    _classCallCheck(this, Post);
@@ -19766,15 +19766,15 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'div',
-	        { className: 'post' },
+	        { className: _post2.default.post },
 	        _react2.default.createElement(
 	          'div',
-	          { className: _post2.default.title },
+	          { className: _post2.default.postTitle },
 	          this.props.title
 	        ),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'post__desc' },
+	          { className: _post2.default.desc },
 	          this.props.desc
 	        )
 	      );
@@ -19782,7 +19782,7 @@
 	  }]);
 
 	  return Post;
-	}(_react2.default.Component);
+	}(_react.Component);
 
 	Post.propTypes = {
 	  title: _react2.default.PropTypes.string.isRequired,
@@ -19797,7 +19797,7 @@
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"title":"post__title___17lWI"};
+	module.exports = {"post":"post__post___lPcR4","common":"post__common___13SsS","postTitle":"post__postTitle___3ORrY post__common___13SsS","desc":"post__desc___2fC4N"};
 
 /***/ },
 /* 162 */,

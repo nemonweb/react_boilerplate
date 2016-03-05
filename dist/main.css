@@ -1,6 +1,28 @@
-.post__title___17lWI {
+.post__post___lPcR4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid black;
+}
+
+.post__common___13SsS {
+  color: white;
+}
+
+.post__postTitle___3ORrY {
   background-color: red;
 }
+
+.post__desc___2fC4N {
+  background-color: yellow;
+}
 body {
+  margin: 0;
+  padding: 0;
   background-color: white;
+}
+
+.test {
+  padding: 20px;
 }
