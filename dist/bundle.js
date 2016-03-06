@@ -19699,8 +19699,8 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var PostList = function (_React$Component) {
-	  _inherits(PostList, _React$Component);
+	var PostList = function (_Component) {
+	  _inherits(PostList, _Component);
 
 	  function PostList() {
 	    _classCallCheck(this, PostList);
@@ -19716,7 +19716,7 @@
 	  }]);
 
 	  return PostList;
-	}(_react2.default.Component);
+	}(_react.Component);
 
 	exports.default = PostList;
 
@@ -19797,7 +19797,7 @@
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"post":"post__post___lPcR4","title":"post__title___17lWI typography__heading___1Y84R","desc":"post__desc___2fC4N"};
+	module.exports = {"post":"post__post___uykKs","title":"post__title___2zCRv typography__heading___1Y84R","desc":"post__desc___1GTDM"};
 
 /***/ },
 /* 162 */,

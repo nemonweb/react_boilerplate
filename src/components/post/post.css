@@ -8,7 +8,7 @@
 }
 
 .title {
-  composes: heading from "./shared/styles/typography.css";
+  composes: heading from "../shared/styles/typography.css";
   background-color: red;
 }
 
