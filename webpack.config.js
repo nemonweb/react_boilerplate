@@ -16,13 +16,6 @@ const postcssImport = require('postcss-import');
 
 module.exports = {
   context: PATHS.src,
-/*
-  entry: {
-    javascript: './app.js',
-    html: './index.html',
-    style: './style.css',
-  },
-*/
   entry: './app.js',
   output: {
     path: PATHS.dist,
