@@ -60,7 +60,7 @@
 
 	var _postList2 = _interopRequireDefault(_postList);
 
-	__webpack_require__(165);
+	__webpack_require__(166);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -19769,7 +19769,7 @@
 	        { className: _post2.default.post },
 	        _react2.default.createElement(
 	          'div',
-	          { className: _post2.default.postTitle },
+	          { className: _post2.default.title },
 	          this.props.title
 	        ),
 	        _react2.default.createElement(
@@ -19797,13 +19797,14 @@
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"post":"post__post___lPcR4","common":"post__common___13SsS","postTitle":"post__postTitle___3ORrY post__common___13SsS","desc":"post__desc___2fC4N"};
+	module.exports = {"post":"post__post___lPcR4","title":"post__title___17lWI typography__heading___1Y84R","desc":"post__desc___2fC4N"};
 
 /***/ },
 /* 162 */,
 /* 163 */,
 /* 164 */,
-/* 165 */
+/* 165 */,
+/* 166 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin

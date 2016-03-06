@@ -7,11 +7,7 @@
   display: flex;
 }
 
-.common {
-  color: white;
-}
-
-.postTitle {
+.title {
   composes: heading from "./shared/styles/typography.css";
   background-color: red;
 }

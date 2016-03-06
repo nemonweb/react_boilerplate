@@ -1,3 +1,8 @@
+.typography__heading___1Y84R {
+  font-weight: 600;
+  font-size: 24px;
+}
+
 .post__post___lPcR4 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6,17 +11,14 @@
   border: 1px solid black;
 }
 
-.post__common___13SsS {
-  color: white;
-}
-
-.post__postTitle___3ORrY {
+.post__title___17lWI {
   background-color: red;
 }
 
 .post__desc___2fC4N {
   background-color: yellow;
 }
+
 body {
   margin: 0;
   padding: 0;
