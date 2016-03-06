@@ -1,17 +1,38 @@
-:root {
-  --mainColor: black;
-}
+@import "../shared/styles/variables.css";
 
 .post {
-  border: 1px solid var(--mainColor);
   display: flex;
+  padding: var(--mainMargin);
+  border-bottom: 1px solid var(--grayColor);
+}
+
+.thumb {
+  height: 110px;
+  width: 110px;
+  margin-right: var(--mainMargin);
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  padding: var(--mainMargin) 0;
 }
 
 .title {
-  composes: heading from "../shared/styles/typography.css";
-  background-color: red;
+  composes: post-title from "../shared/styles/typography.css";
+  color: var(--titleColor);
 }
 
 .desc {
-  background-color: yellow;
+  composes: post-desc from "../shared/styles/typography.css";
+  color: var(--descColor);
+}
+
+.empty {
+  background-color: var(--descColor);
+  width: 100%;
+  height: 100%;
 }

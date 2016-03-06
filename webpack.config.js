@@ -12,6 +12,7 @@ const PATHS = {
 
 const cssnext = require('postcss-cssnext');
 const postcssSorting = require('postcss-sorting');
+const postcssImport = require('postcss-import');
 
 module.exports = {
   context: PATHS.src,
@@ -48,6 +49,7 @@ module.exports = {
     ],
   },
   postcss: [
+    postcssImport,
     cssnext,
     postcssSorting,
   ],

@@ -1,0 +1,7 @@
+@import "./variables.css";
+
+.box {
+  background: var(--whiteColor);
+  border: 1px solid var(--grayColor);
+  margin-bottom: 20px;
+}
