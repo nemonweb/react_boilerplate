@@ -3,8 +3,8 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import Post from '../../src/components/post/post';
-import styles from '../../src/components/post/post.css';
+import Post from './post';
+import styles from './post.css';
 
 describe('<Post />', () => {
   it('contains a empty class when "pic" props is not transferred', () => {

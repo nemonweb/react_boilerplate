@@ -8,7 +8,8 @@
     "serve": "node server/server.js",
     "clean": "rimraf dist/*",
     "lint": "eslint ./src",
-    "test": "BABEL_DISABLE_CACHE=1 NODE_ENV=test mocha test/.setup.js test/**/*-test.js"
+    "test": "BABEL_DISABLE_CACHE=1 NODE_ENV=test mocha test/helper.js src/**/*-test.js",
+    "tdd": "npm test -- --watch"
   },
   "author": "",
   "license": "ISC",
